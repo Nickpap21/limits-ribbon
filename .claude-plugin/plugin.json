@@ -1,0 +1,15 @@
+{
+  "name": "limits-ribbon",
+  "version": "0.1.0",
+  "description": "A quiet ribbon above the prompt: what is left of your 5-hour and weekly limits, when they reset, and whether this session's prompt cache is warm or cold.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "cacheTtl": {
+      "type": "string",
+      "title": "Prompt cache lifetime",
+      "description": "auto reads it from your settings, environment and plan (1h on a subscription within plan usage, else 5m). Pick 5m or 1h to force it.",
+      "default": "auto",
+      "options": ["auto", "5m", "1h"]
+    }
+  }
+}

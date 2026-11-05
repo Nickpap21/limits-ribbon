@@ -1,0 +1,5 @@
+{
+  "name": "limits-ribbon",
+  "owner": { "name": "nickpap21" },
+  "plugins": [{ "name": "limits-ribbon", "source": "./" }]
+}
